@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <link rel="stylesheet" href="student style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="head">
+                <h1>Student Registration form</h1>
+            </div>
+            <form action="">
+                <div class="form_control">
+                    <div class="details">
+                        <label for="first_name">First Name</label>
+                        <input type="text" placeholder="Enter First Name">
+                    </div>
+                    <div class="details">
+                        <label for="Last_name">Last Name</label>
+                        <input type="text" placeholder="Enter Last Name">
+                        
+                    </div>
+                    <div class="details">
+                        <label for="father_name">Father Name</label>
+                        <input type="text" placeholder="Enter Father Name">
+                    </div>
+                    <div class="details">
+                        <label for="Mother_name">Mother Name</label>
+                        <input type="text" placeholder="Enter Mother Name">
+                    </div>
+                    <div class="details">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" placeholder="Enter yur Date Of Birth">
+                    </div>
+                    <div class="ram">
+                        <label for="gender">Gender</label>
+                       <div class="radios">
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                            
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+                            
+                            <input type="radio" name="gender" id="other" value="other">
+                            <label for="other" >Other</label>
+                       </div>
+                        
+                       
+                    </div>
+                    <div class="textarea">
+                        <label for="textarea">Address</label>
+                        <textarea name="textarea" id="textarea" cols="50" rows="4"></textarea>
+                    </div>
+                    <div class="details">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your Email" required>
+    
+                    </div>
+                    <div class="details">
+                        <label for="course"> Course</label>
+                        <select name="course" id="course">
+                            <option value=""  >Choose Course:</option>
+                            <option value="Cse">CSE</option>
+                            <option value="Ece">ECE</option>
+                            <option value="Eee">EEE</option>
+                            <option value="civil">Civil</option>
+                            <option value="mechanical">Mechanical</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+       
+    </div>
+</body>
+</html>
