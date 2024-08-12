@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem Results Table</title>
+    <style>
+        *{
+            
+            font-family: sans-serif;
+        }
+
+        body {
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            text-align: center;
+            
+        }
+        table {
+            border-collapse: collapse; 
+            width:80%;
+        }
+
+        th, td {
+            border: 1px solid black; 
+            border-left: none; 
+            border-right: none;
+            padding: 8px;
+            text-align: left;
+        }
+
+        
+        th:first-child, td:first-child {
+            border-left: none;
+        }
+
+        th:last-child, td:last-child {
+            border-right: none;
+        }
+        button{
+            border-radius: 20px;
+            border: none;
+            padding: 5px 10px;
+            background: #befa79;
+            color: #469B1F;
+            color: black;
+            
+        }
+        .container{
+            width: 80%;
+            background-color: aqua;
+            margin: 0 auto;
+            
+        }
+        .credits  {
+            margin-top: 150px;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <h1>Semester Results</h1>
+        </center>
+        <center>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Credits</th>
+                        <th>Grade Point</th>
+                        <th>Grade</th>
+                        <th>Result<br>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22LG107601M</td>
+                        <td>Proffessional Ethics and Human Values</td>
+                        <td>2</td> 
+                        <td>10</td> 
+                        <td>O</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22CS102003</td>
+                        <td>Data Structures</td>
+                        <td>4</td>
+                        <td>10</td>
+                        <td>O</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22MM101405</td>
+                        <td>Numerical Methods ,Probability And Statistics</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>A+</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22CS102005</td>
+                        <td>Database Managements Systems</td>
+                        <td>4</td>
+                        <td>8</td>
+                        <td>A</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22DS102001</td>
+                        <td>Foundations Of Data Science</td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>A+</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22LG201701</td>
+                        <td>Personality Development</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>A+</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22CM101402M</td>
+                        <td>Principles of Business Economics And Accountancy</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>O</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr>
+                        <td>III-Semester Batch-1</td>
+                        <td>22AI101109M</td>
+                        <td>Foundations of Operating Systems</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>O</td>
+                        <td><button>Pass</button></td>
+                    </tr>
+                    <tr class="credits">
+                        <th>Credits Registered:26</th>
+                        <th>Credits Completed:26</th>
+                        <td>SGPA:9.31</td>
+                        <td>CGPA:8.73</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+
+    </div>
+</body>
+</html>
