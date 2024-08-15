@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 90%;
+            margin-top: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        fieldset
+        {
+            color: blue;
+            border-color: red;
+            margin: 20px;
+            margin-left: 470px;
+            margin-right: 470px;
+            background-color: rgb(28, 254, 254);
+            border-width: 3px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form action="#" method="post">
+        <h2>Course Feedback</h2>
+        
+        <label for="course">Course Name:</label>
+        <input type="text" id="course" name="course" required>
+        
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="">Select rating</option>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Good</option>
+            <option value="3">3 - Average</option>
+            <option value="2">2 - Poor</option>
+            <option value="1">1 - Very Poor</option>
+        </select>
+        
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+        
+        <input type="submit" value="Submit Feedback">
+    </form>
+</fieldset>
+</body>
+</html>

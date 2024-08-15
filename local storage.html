@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <style>
+        
+        form{
+            width:50% ;
+
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Local Storage</h1>
+    <form action="">
+        <fieldset>
+            <legend>Login Form</legend>
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email : </label>
+            <input type="text" name="email" id="email" style="margin-top: 10px;"><br>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" style="margin-top: 10px;"><br>
+            <input type="submit" onclick="save()" style="margin-top: 10px;">
+            <input type="reset" onclick="save()" style="margin-top: 10px;">
+            
+        </fieldset>
+    </form>
+    <script>
+        function save(){
+            var venkat = document.getElementsByName("name").value;
+            localStorage.setItem("name",venkat);
+            var pass = document.getElementById("password").value;
+            localStorage.setItem("password",pass);
+            
+            //localStorage.clear()
+            alert(pass);
+        }
+    </script>
+</body>
+</html>

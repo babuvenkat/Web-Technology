@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job registration form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="main">
+                <h1>Job Registration form</h1>
+            </div>
+            
+            <form action="">
+                
+                <div class="title">
+                    <div class="class">
+                        <label for="first_name">First Name</label>
+                        <input type="text" placeholder="Enter Your first name" id="name" required>
+                    </div>
+                    <div class="class">
+                        <label for="last_name">Last name</label>
+                        <input type="text" placeholder="Enter your last name" id="last_name" required>
+                    </div>
+                    <div class="class">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Email" required>
+                    </div>
+                    <div class="class">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="number" id="phone_number" placeholder="+91 0000000000" required>
+                    </div>
+                    <div class="class">
+                        <label for="dob">DOB</label>
+                        <input type="date" placeholder="Enter dob" required>
+                    </div>
+                    <div class="class">
+                        <label for="experience">Experience</label>
+                        <select name="experience" id="experience" required>
+                            <option value="">Enter Your Experience</option>
+                            <option value="">0-1yr</option>
+                            <option value="">1-3yrs</option>
+                            <option value="">3yrs+</option>
+                        </select>
+                    </div>
+                    <div class="class">
+                    <div >
+                        <label for="job_role">Job role</label>
+                        <select name="job_role" id="job_role" required>
+                            <option value="">Select Job Role</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="Backend">Backend Developer</option>
+                            <option value="full_stack">Full Stack</option>
+                            <option value="ui_ux">UI UX Developer</option>
+                        </select>
+                    </div>
+                    <div class="venky">
+                        <label for="cv">Upload CV</label>
+                        <input type="file">
+                       </div>
+                    </div>
+
+                    <div class="class">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" cols="50" rows="5" placeholder="Enter Address"></textarea>
+                    </div>
+                    
+                </div>
+                <div class="btn">
+                    <button class="apply">Apply now</button>
+                </div>
+                
+            </form>
+
+        </div>
+        
+    </div>
+</body>
+</html>

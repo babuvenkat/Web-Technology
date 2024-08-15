@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Sign in form</title>
+    <style>
+        body{
+            background-color: rgba(158, 199, 238, 0.378);
+        }
+        h1{
+            text-align: center;
+
+        }
+        .mainform{
+            
+            display: flex;
+            justify-content: center;
+            height: 430px;
+            width: 430px;
+            margin-left: 510px;
+            box-shadow: 5px 10px 15px rgb(172, 168, 168);
+            border-radius: 10px;   
+        }
+
+        .linkedin{
+            font-family: Arial;
+            color: #0b64d0;
+            font-size: 25px;
+        }
+        .sign{
+            font-family: Arial;
+            margin-bottom: 0px;
+            font-size: 25px;
+            
+        }
+
+        .comment{
+            margin-top: 0px;
+            font-size: 15px;
+            color: rgb(128, 125, 125);
+        }
+        #Email{
+            margin-bottom: 4px;
+            padding: 5px;
+            width: 250px;
+            height: 25px;
+        }
+        #Password{
+            margin-top: 4px;
+            padding: 5px;
+            width: 250px;
+            height: 25px;
+        }
+        .forgot{
+            cursor:pointer;
+            color: #2667e9;
+            font-size: 16px;
+            font-family: Arial;
+            
+            
+        }
+        
+        .border{
+            border: 2px solid black;
+        }
+        .button{
+            background-color: #2b66db;
+            color: white;
+            border: none;
+            width: 250px;
+            padding: 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .button:hover{
+            background-color: #1247b2;
+        }
+        .new{
+            color: #2667e9;
+            font-family: Arial;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Linkedin Sign in form</h1>
+    <div class="mainform">
+        <div class="inside">
+            <form action="">
+                <h3 class="linkedin">Linked<span style="background-color: rgb(46, 46, 237); color: white; ">in</span></h3>
+                <h2 class="sign">Sign in</h2>
+                <p class="comment">Stay updated on your proffessional world</p>
+                <input type="text" name="Email" id="Email" placeholder="Email" required><br>
+                <input type="password" name="Password" id="Password" placeholder="Password" required>
+                <h4 class="forgot">Forgot Password?</h4>
+                <button class="button">Sign in</button>
+                <h4 class="new">New to linkedin? Join now</h4>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
